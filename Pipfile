@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+pymysql = "*"
+flask-bcrypt = "*"
+timm = "*"
+pillow = "*"
+matplotlib = "*"
+numpy = "<2"
+torchvision = "*"
+torch = "==2.0.0"
+virtualenv = "*"
+zipp = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
